@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+<h1 id="title">Registration form</h1>
+<p id="description">Create your account to unlock endless fun!</p>
+
+
+<form id="survey-form" action="" method="post">
+
+<!--first section-->
+
+    <section class="first">
+    <fieldset>
+    <label class="start">Enter your personal information</label>
+<label for="name" id="name=label">
+    <input id="name" type="text" name="personal" placeholder="first and last name...." required/> Full Name
+</label>
+
+<label for="age" id="number-label">
+    <input id="number" type="number" min="13" max="120" placeholder="13-120"> Age
+</label>
+
+<label for="email" id="email-label">
+    <input id="email" type="email" placeholder="example@gmail.com" required/> Email 
+</label>
+
+<label for="password">
+    <input id="password" type="password" pattern="[a-z0-5]{8,}"/> Password
+</label>
+    </fieldset>
+</section>
+
+<!--second section-->
+
+<section>
+<fieldset>
+        <label class="start"> Enter your account type </label>
+        <label for="personal">  
+        <input type="radio" checked id="personal" name="type"> personal
+    </label> 
+         <label for="business"> 
+            <input type="radio" checked id="business" name="type"> business
+        </label>  
+    </fieldset>
+</section>
+
+<!--Third section-->
+
+<section>
+    <fieldset>
+        <label for="bio"> Bio
+           <textarea id="bio"  placeholder="Tell us a fun fact about yourself...." required>
+           </textarea>
+        </label>
+    </fieldset>
+</section>
+
+<!--fourth section-->
+<section>
+    <fieldset>
+        <label class="start">What are you looking for?</label>
+        <label for="fun">
+            <input type="checkbox" value="fun" id="fun"> Fun 
+        </label>
+
+        <label for="education">
+            <input type="checkbox" value="education" id="education"> Education 
+        </label>
+
+        <label for="more">
+            <input type="checkbox" value="more" id="more"> More 
+        </label>
+    </fieldset>
+</section>
+
+<!--fifth section-->
+
+<section>
+<fieldset>
+
+    <label for="upload" class="start">Upload a profile picture</label>
+    <input type="file" id="upload" required>
+</fieldset>
+</section>
+
+<!--sixth section-->
+
+<section>
+<fieldset>
+
+    <label class="start">How did you hear about us</label>
+    
+    <select id="dropdown"> 
+        <option>Select one</option>
+        <option>LinkedIn</option>
+        <option>YouTube</option>
+        <option>University</option>
+        <option>GitHub</option>
+        <option>other</option>
+    </select>
+
+</fieldset>
+</section>
+
+<!--sixth section-->
+
+<section>
+    <fieldset>
+        <label for="terms">
+            <input type="checkbox" id="terms" required> I accept <a href=""> terms and conditions </a>
+        </label>
+    </fieldset>
+</section>
+
+<!--final section-->
+
+<section> 
+  <label for="submit"> 
+    <button id="submit">Submit</button>
+</label> 
+</section>
+
+</form>
+</div>
+</body>
+</html>
