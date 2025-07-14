@@ -1,0 +1,101 @@
+body {
+    background-image: url(download.jpg);
+}
+
+h1, p {
+    text-align:center;
+    font-family:Impact;
+    color:#000000;
+    padding-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+
+label{
+    padding: 0;
+    text-align: left;
+    margin-right: 20px;
+}
+
+textarea {
+    margin: 10px auto;
+    padding: 10px 10px;
+    width: 60%;
+    min-height: 10vh;
+    color:rgb(117, 93, 117);
+}
+
+fieldset {
+    margin: 15px auto;
+    border-bottom: 2px solid rgb(234,153,200);
+    border-left: 0;
+    border-right:0;
+    border-top:0;
+}
+
+button {
+    margin: auto auto;
+    height: 7vh;
+    width: 25vw;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(153,234,187, 0.5);
+    width: 50%;
+    margin: 30px auto;
+}
+
+.start {
+    text-align: center;
+    margin: 5px auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top:0;
+}
+
+button, input[type="submit"] {
+  display: block;
+  margin: 20px auto; 
+  width: 200px; 
+  height: 40px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+
+#name-label {
+    display: block;
+}
+
+
+select {
+    margin: 10px auto;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"]
+{
+display: inline-block;
+  width: 60%;
+  height: 10px;
+  margin: 5px auto;
+  padding: 6px;
+}
+
+input {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.first {
+    margin: 10px auto;
+    display: block;
+}
